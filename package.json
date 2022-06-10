@@ -9,7 +9,6 @@
     "test": "ng test",
     "heroku-postbuild": "ng build --prod"
   },
-
   "private": true,
   "dependencies": {
     "@angular/animations": "^13.2.7",
