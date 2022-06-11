@@ -1,0 +1,180 @@
+<html style="height: 100%;">
+<header>
+  <nav style="position:absolute; margin-top: -20px; background-color: rgba(0, 0, 0, 1);"
+    class="navbar  navbar-fixed-top navbar-dark">
+    <div>
+
+      <span id="bg" style="position:absolute; right:40px; top:40px" (click)="toggleNavbar()">
+        <img id="menu_icon" src='assets/images/Menu Icon1.png'>
+      </span>
+    </div>
+
+    <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }">
+      <ul class="navbar-nav mr-auto">
+
+        <li style="margin-top: 100px;" class="nav-item">
+          <a class="nav-link" href="about-component" style="color: #6667AB;">ABOUT</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="gt-component" style="color: #6667AB;">THE GOLDEN THREAD</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="services-component" style="color: #6667AB;">SERVICES</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio-component" style="color: #6667AB;">PORTFOLIO</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="blog-component" style="color: #6667AB;">OUR VIEWPOINT</a>
+          <div class="hor"></div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact-component" style="color: #6667AB;">CONTACT</a>
+        </li>
+        <li class="nav-item other">
+          <a class="nav-link" href="#">FAQ</a>
+          <a class="nav-link" href="#">PRIVACY POLICY</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+
+
+<body [ngClass]="status ? 'blur-on' : 'blur-off'">
+  <div [ngClass]="status ? 'pd' : 'pd-off'">
+    <div style="background-color: #6667AB;">
+
+      <div id="logo"><a href="home-component"><img src='assets/images/Logob.png'></a></div>
+
+      <!-- <div id="menu_icon"><img src='/../assets/images/Menu Icon.png'></div> -->
+
+
+      <div id="contact">contact us</div>
+      <div id="socials">
+        <div style="
+      
+        background-color: #E0E7ED;
+    ">
+          <img src='assets/images/Feather.png'>
+        </div>
+        <div style="
+      
+        background-color: #E0E7ED;
+    ">
+          <img src='assets/images/Feather1.png'>
+        </div>
+        <div style="
+      
+        background-color: #E0E7ED;
+    ">
+          <img src='assets/images/Feather3.png'>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container" style="padding-left: 7%; padding-right:7%; padding-top: 400px;">
+      <span id='av' style="color: #14393F;">
+        ERMANNO SCERVINO
+      </span>
+      <span id='year'>
+        2022
+      </span>
+      <div style="text-align: center; " id='posuere'>
+        <img src='assets/images/10.png'>
+      </div>
+      <div class="row">
+        <div style="color: #14393F;" class="subtitle col-md-4 col-lg-4 col-xs-12" style=" display: inline-block;">
+  <span style="color: #14393F;" >     The Brief</span>   
+        </div>
+        <div class="txt col-md-8 col-lg-8 col-xs-12">
+            Born in 2000 in Florence with the mission of making women feel beautiful in their own skin and dress, Ermanno Scervino has earned its own space in the contemporary fashion scene. During the years, the brand introduced interesting concepts such as “couture à porter” by creating every product with the best possible quality and craftmanship. And also elevating utilitarian products as the padded jacket to high fashion. Although still consistent with the original strategy, the brand needs an ultimate upgrade to communicate with the well-defined target profiles to keep a stronger positioning in the desired market segment – One-of-
+
+            a-Kind luxury.
+        </div>
+      </div>
+      <div class="row">
+        <div class="rt col-12" style=" display: inline-block; color:  #6667AB;">
+            Target Profile: <span style="color: #14393F;">71.43% - "The Mastermind"</span>
+
+          <span style="color: #14393F;"> 28.57% - "The Fulfillment Seeker"</span> 
+            
+            Point of Differentiation: <span style="color: #14393F;">To Treat</span>
+            
+            Market Segment:<span style="color: #14393F;"> One-Of-A-Kind</span>
+        </div>
+        <div  style="color: #14393F;" class="rt1 col-12">
+          Algorithmic Output</div>
+      </div>
+      <div class="row" style="margin-bottom:40px;">
+        <div style="color: #14393F;" class="subtitle col-md-4 col-lg-4 col-xs-12">
+          What We
+          Did
+        </div>
+        <div class="txt col-md-8 col-lg-8 col-xs-12">
+            According to the Golden Thread research, there is a need to connect the primary target profile – the Mastermind, to the aspired market segment – One-Of-A-Kind Luxury through the Point of Differentiation – to Treat. Perapolis and Ermanno Scervino agreed to step up the brand reputation through the introduction to the world of bespoke garments to clients through the adoption of the concept of ‘Couture-à-Porter’ - haute couture elements for every special moment in a woman's life. The desired starting point for the brand was to leverage on the high
+
+            quality and craftmanship, together with the heritage and Italian know-how inherited through the years, which are the client’s reasons to purchase. The strategy revolves around the launch of a capsule collection of eveningwear, called One-Of-A-Night, to be purchased either online in the brand’s e-commerce or in the main boutiques in Europe and Miami (US). There, the capsule will have an exclusive corner where clients can also take advantage of sartorial corrections and personalization to the capsule clothing. The communication for the promotion of the new launch features a campaign where two young women will go in search of the meaning of beauty and passion. The ad is expected to increase the focus on
+            
+            meaning and knowledge that the profile of the Mastermind seeks. 
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 col-lg-4 col-xs-12">
+        </div>
+        <div class="col-md-8 col-lg-8 col-xs-12">
+
+
+
+        </div>
+      </div>
+      <div style="color: #14393F;" class=" row">
+        <div style="color: #14393F;" class='l col-md-12 col-lg-4 col-xs-12'>
+          <div style="color: #14393F;" class='pr'>30%</div>
+          <div style="color: #14393F;" class="rp">Increase in impressions on social media</div>
+        </div>
+        <div class="l f col-md-12 col-lg-4 col-xs-12">
+          <div style="color: #14393F;" class='pr'>+15%</div>
+          <div style="color: #14393F;" class="rp">Above the brand’s average in engagement on Instagram</div>
+        </div>
+        <div class=" col-md-12 col-lg-4 col-xs-12">
+          <div  style="color: #14393F;"class='pr'>x2</div>
+          <div style="color: #14393F;" class="rp">Increase in website traffic from social</div>
+        </div>
+      </div>
+      <div style="text-align: center; margin: auto; margin-left: -5%; ">
+
+        <div id="s">
+          <img src='assets/images/11.png'>
+        </div>
+
+        <div id="ss">
+          <img src='assets/images/12.png'>
+        </div>
+
+        <div id="d"></div>
+      </div>
+
+
+
+
+    </div>
+
+  </div>
+  <div style="font-size: 12px; color: white; font-family: 'Public Sans'; text-align: center; padding-bottom: 40px;">©
+    2022 PERAPOLIS</div>
+</body>
+
+</html>
