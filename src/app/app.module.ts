@@ -30,6 +30,7 @@ import { PosuereComponent } from './posuere/posuere.component';
 import { FormsModule } from '@angular/forms';
 import { ContactComponent } from './contact/contact.component';
 import { BlogComponent } from './blog/blog.component';
+import { OoanComponent } from './ooan/ooan.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,7 +53,8 @@ import { BlogComponent } from './blog/blog.component';
     Gt11Component,
     PosuereComponent,
     ContactComponent,
-    BlogComponent
+    BlogComponent,
+    OoanComponent
   ],
   imports: [
 
