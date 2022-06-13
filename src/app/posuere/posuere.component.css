@@ -355,7 +355,7 @@ padding-left: 0 !important;
 #av{
     font-size:144px; color:#6667AB;font-family: 'Hatton Medium';
     position: absolute;
-    top:95px;
+    top:290px;
     margin-left: 30%;
     background-color: none !important;
 }
@@ -375,7 +375,7 @@ top: 130px;
 @media (max-width: 1000px) {
     #av{
         position: absolute;
-    top:160px;
+    top:360px;
     margin-left: 40%;
         font-size:10vw; 
     }
@@ -581,3 +581,5 @@ top: 130px;
 
     font-size: 7vw;
   }
+
+  
