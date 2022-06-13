@@ -536,24 +536,24 @@ li a {
 
 
 #tx1 :hover{
-  transform: skew(-0.06turn, 18deg);
+  transform: scale(1.5);
 
 
 }
 
 .tx5 :hover{
-  transform: skew(15deg, 15deg);
+  transform: scale(1.5);
 }
 
 .tx6 :hover{
-  transform: skew(15deg, 15deg);
+  transform: scale(1.5);
 }
 
 
 
 
 #tx3 :hover{
-  transform: skew(-0.06turn, 18deg);
+  transform: scale(1.5);
 }
 
 *{
