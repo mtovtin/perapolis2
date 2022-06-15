@@ -259,14 +259,7 @@ console.log(this.answersService.h);
 
 
 
-    if  (this.proposition=="Self-Indulgence"&&this.reason=="Exclusive ownership") {
-      this.str = `${JSON.parse(this.g[2].percentage)}% - ${JSON.stringify(this.g[2].targetProfile)}`;
-      this.t = JSON.parse(this.g[2].t);
-      this.t1 = "";
-      this.str2 = "";
-
-      this.str4 = "";
-    }
+    
 
 
 if ((this.proposition=="Product"&&this.reason=="Niche knowledge")||
@@ -309,6 +302,8 @@ if ((this.proposition=="Self-Indulgence"&&this.reason=="Niche knowledge")||
 }
 
 
+
+
 if ((this.proposition=="Product"&&this.reason=="Return on Investment")||
 (this.proposition=="Heritage"&&this.reason=="Return on Investment")||
 (this.proposition=="Community"&&this.reason=="Niche knowledge")||
@@ -323,6 +318,14 @@ if ((this.proposition=="Product"&&this.reason=="Return on Investment")||
 
 
 
+if  (this.proposition=="Self-Indulgence"&&this.reason=="Exclusive ownership") {
+  this.str = `${JSON.parse(this.g[2].percentage)}% - ${JSON.stringify(this.g[2].targetProfile)}`;
+  this.t = "What is one's life purpose? For some, it can be life achievements, community or knowledge, for the absolute hedonist it is the pursuit of pleasure. This enthusiasm is fueled by an erotic desire stem. ​​Pleasure is the added value the Absolute Hedonist seeks in a product; it can be directed into the client's service or represented through a customised experience. The Absolute Hedonists have a low requirement for an association; affiliation is not something this target profile desires. This target profile places a great value on exclusivity; if there is anything that only a small number of people can have, they must be one of them, preferably the only one. Absolute Hedonists are drawn to brands with significant heritage, unique product propositions or distinctive shopping experiences, as these make them feel extraordinary. When we talk about pleasure, we don't just mean the extravagant sort. Joy can also be found in modest opulent items for the Absolute Hedonist; it's about the feeling of possessing a product that gives its individualistic owner a sense of uniqueness. This target profile values an individualized oriented approach in the core of the product, whether it's personalized, made-to-order, or made-to-measure.";
+  this.t1 = "";
+  this.str2 = "";
+
+  this.str4 = "";
+}
 
 
 
@@ -340,3 +343,5 @@ if ((this.proposition=="Product"&&this.reason=="Return on Investment")||
     this.router.navigateByUrl('gt10-component')
   }
 }
+
+
